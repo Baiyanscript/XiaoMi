@@ -1,0 +1,7 @@
+originType=undefined
+toolkit=2.0.3
+timeStamp=2025-07-17T13:35:42.930Z
+node=v22.15.0
+platform=win32
+arch=x64
+component=true
