@@ -1,0 +1,78 @@
+{
+  "package": "com.xxsb.mask.beta",
+  "name": "面具",
+  "versionName": "2.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.app"
+    },
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.device"
+    },
+    {
+      "name": "system.brightness"
+    },
+    {
+      "name": "system.storage"
+    }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": "device-width",
+    "designedWidth": "192",
+    "designedHeight": "490"
+  },
+  "router": {
+    "entry": "pages/loading",
+    "pages": {
+      "pages/loading": {
+        "component": "loading"
+      },
+      "pages/index": {
+        "component": "index"
+      },
+      "pages/detail": {
+        "component": "detail"
+      },
+      "pages/clock": {
+        "component": "clock"
+      },
+      "pages/black": {
+        "component": "black"
+      },
+      "pages/error": {
+        "component": "error"
+      },
+      "pages/damage": {
+        "component": "damage"
+      },
+      "pages/flashlight": {
+        "component": "flashlight"
+      },
+      "pages/menu": {
+        "component": "menu"
+      },
+      "pages/timer": {
+        "component": "timer"
+      },
+      "pages/bushu": {
+        "component": "bushu"
+      },
+      "pages/zjdsz": {
+        "component": "zjdsz"
+      }
+    }
+  }
+}
